@@ -70,11 +70,10 @@ color: white;
   margin-left: 10%;
   /* border: 1px solid black; */
 }
-.headline h2{
-font-weight: 900;
-font-size: 20px;
-color: #5ae4a8;
-padding: 0;
+.headline img{
+    width: 190px;
+    border: 3px solid #5ae4a8;
+    border-radius: 50%;
 }
 .headline p{
  color: gray;
