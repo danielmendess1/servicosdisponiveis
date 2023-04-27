@@ -29,8 +29,10 @@
    width: 10px;
    }
    .card{
-    width: 100%;
+    width: 92%;
    }
 
-   
+   .whats{
+   margin-right: 40px;
+   }
 }
