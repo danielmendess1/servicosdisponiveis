@@ -26,13 +26,10 @@
     text-align: center;
    }
    .whats{
-   width: 10px;
+   width: 8px;
+   margin-right: 45px;
    }
    .card{
     width: 100%;
-   }
-
-   .whats{
-   margin-right: 47px;
    }
 }
