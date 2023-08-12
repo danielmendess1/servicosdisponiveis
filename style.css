@@ -69,7 +69,6 @@ color: white;
 .headline{
   flex: 40%;
   margin-left: 10%;
-  /* border: 1px solid black; */
 }
 .headline img{
     width: 190px;
@@ -77,8 +76,10 @@ color: white;
     border-radius: 50%;
 }
 .headline p{
- color: gray;
- text-align: left;   
+ color: black;
+ text-align: left;
+ font-size:22px;
+ 
 }
 
 .botao-contato{
