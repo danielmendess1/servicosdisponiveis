@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lobster&family=Roboto:ital,wght@1,100&display=swap');
-*{
+
+* {
     box-sizing: border-box;
 
 }
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.navbar{
+
+.navbar {
     display: flex;
     flex-flow: row wrap;
     height: 100px;
@@ -17,93 +20,105 @@ body {
     position: fixed;
     width: 100%;
 }
-.logo{
+
+.logo {
     margin-left: 10%;
     flex: 20%;
     text-align: left;
 }
-.logo h1{
+
+.logo h1 {
     font-family: 'Lobster', cursive;
-    color:#00eceb;
+    color: #00eceb;
     font-size: 34px;
 }
-.menu{
+
+.menu {
     flex: 70%;
     text-align: right;
-    padding: 20px
+    padding: 20px;
 }
-.menu a{
-    color:#00eceb; 
+
+.menu a {
+    color: #00eceb;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
     font-weight: bold;
 }
-.menu a:hover{
- color: #1a2e35;  
- border-top: 4px solid #00eceb ;
- 
+
+.menu a:hover {
+    color: #1a2e35;
+    border-top: 4px solid #00eceb;
+
 }
-#botao{
+
+#botao {
     background-color: #00eceb;
     padding: 10px 25px;
-    color:white;
+    color: white;
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
 }
-#botao:hover{
+
+#botao:hover {
     border: none;
-background: #1a2e35;
-color: white;
-}
-.header{
-   display: flex;
-   flex-flow: row wrap;
-    background: white;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-  
-}
-.headline{
-  flex: 40%;
-  margin-left: 10%;
-}
-.headline img{
-    width: 190px;
-    border: 3px solid #00eceb;
-    border-radius: 50%;
-}
-.headline p{
- color: black;
- text-align: left;
- font-size:22px;
- 
-}
-
-.botao-contato{
- display: inline-block;
-background: #00eceb ;
-  border-radius: 5px;
-  text-decoration: none;
-  color: white;
-  text-transform:uppercase ;
-  padding: 20px;
-  font-weight: ;
-}
-
-.botao-contato:hover{
     background: #1a2e35;
     color: white;
 }
 
-.img-headline{
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline img {
+    width: 190px;
+    border: 3px solid #00eceb;
+    border-radius: 50%;
+}
+
+.headline p {
+    color: black;
+    text-align: left;
+    font-size: 22px;
+
+}
+
+.botao-contato {
+    display: inline-block;
+    background: #00eceb;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: ;
+}
+
+.botao-contato:hover {
+    background: #1a2e35;
+    color: white;
+}
+
+.img-headline {
     margin-right: 10%;
     flex: 40%;
     text-align: center;
 }
-section{
+
+section {
     display: inline-block;
     margin-top: 80px;
     margin-left: 5%;
@@ -111,19 +126,22 @@ section{
     padding: 5%;
     text-align: center;
 }
-section h2{
+
+section h2 {
     width: 100%;
     font-size: 50px;
     margin: 0;
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    color:#1a2e35 ;
+    color: #1a2e35;
 }
-.servicos{
+
+.servicos {
     display: inline-block;
     margin-top: 5%;
 }
-.card{
+
+.card {
     display: inline-block;
     width: 30%;
     padding: 20px;
@@ -132,31 +150,33 @@ section h2{
     border-radius: 10px;
     cursor: pointer;
 }
-.card:hover{
+
+.card:hover {
     background-color: #1a2e35;
     color: white;
     padding: 35px;
 }
-footer{
+
+footer {
     margin-top: 100px;
     height: 160px;
-    background-image: linear-gradient(180deg,#00eceb,#00eceb,#00eceb);
+    background-image: linear-gradient(180deg, #00eceb, #00eceb, #00eceb);
     text-align: center;
-    border-top:3px solid #1a2e35;
+    border-top: 3px solid #1a2e35;
 }
-.logo-rodape{ 
+
+.logo-rodape {
     padding: 10px;
 }
-.daniel{
+
+.daniel {
     font-family: 'Lobster', cursive;
-    color:white;
-    font-size: 34px; 
+    color: white;
+    font-size: 34px;
 }
-.whats{
+
+.whats {
     position: fixed;
     bottom: 5px;
     right: 5px;
 }
-
-
-
