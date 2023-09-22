@@ -31,6 +31,7 @@ body {
     font-family: 'Lobster', cursive;
     color: #00eceb;
     font-size: 34px;
+    cursor: pointer;
 }
 
 .menu {
@@ -93,6 +94,7 @@ body {
     color: black;
     text-align: left;
     font-size: 22px;
+    font-weight: 600;
 
 }
 
@@ -101,10 +103,10 @@ body {
     background: #00eceb;
     border-radius: 5px;
     text-decoration: none;
+    font-weight: 600;
     color: white;
     text-transform: uppercase;
     padding: 20px;
-    font-weight: ;
 }
 
 .botao-contato:hover {
@@ -139,6 +141,7 @@ section h2 {
 .servicos {
     display: inline-block;
     margin-top: 5%;
+    font-weight: 600;
 }
 
 .card {
